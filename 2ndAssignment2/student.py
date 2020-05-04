@@ -1,4 +1,5 @@
 import person
+import course
 
 
 class Student(person.Person):
@@ -14,3 +15,5 @@ class Student(person.Person):
     @courses.setter
     def courses(self, courses):
         self.__courses = courses
+        for course_1 in courses:
+            course_1.update_participants(self)
