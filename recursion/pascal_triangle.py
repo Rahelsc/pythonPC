@@ -22,7 +22,7 @@ def pascal(n: int, count=2, l=None):
             print('')
 
 
-pascal(8)
+pascal(5)
 
 """
                             1
